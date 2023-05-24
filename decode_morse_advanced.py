@@ -46,7 +46,7 @@ def _find_timeunit(clean_bits):
     find = re.split("0+", clean_bits)
     find2 = re.findall("0+", clean_bits)
     flag = True
-    shortest = 'chuj'
+    shortest = 'nico'
     for x in (find + find2):
         if flag:
             shortest = x 
